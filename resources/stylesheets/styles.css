@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif; 
+    background-image: url(../images/Background.jpg); 
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: -webkit-box; /* For iOS and Android */
+    display: -webkit-flex; /* For Safari */
+    display: flex; 
+    -webkit-box-pack: justify; /* For iOS and Android */
+    -webkit-justify-content: space-between; /* For Safari */
+    justify-content: space-between; 
+    -webkit-box-align: baseline; /* For iOS and Android */
+    -webkit-align-items: baseline; /* For Safari */
+    align-items: baseline;
+}
+
+nav h1 {
+    margin-left: 30px; 
+    font-size: xx-large; 
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px  1px 0 #fff, 1px  1px 0 #fff; 
+    font-size: 3vw; 
+    vertical-align: baseline;
+}
+
+nav h1 a {
+    text-decoration: none; 
+    color: #000;
+}
+
+.nav-links {
+    display: -webkit-box; /* For iOS and Android */
+    display: -webkit-flex; /* For Safari */
+    display: flex; 
+    -webkit-box-pack: center; /* For iOS and Android */
+    -webkit-justify-content: center; /* For Safari */
+    justify-content: center; 
+    -webkit-box-align: baseline; /* For iOS and Android */
+    -webkit-align-items: baseline; /* For Safari */
+    align-items: baseline;
+}
+
+.nav-links a {
+    color: #fff; 
+    text-decoration: none; 
+    margin-right: 20px; 
+    padding: 5px 10px; 
+    font-size: 1.5vw;
+}
+
+.nav-links a:hover {
+    color: #444194;
+}
+
+.placeholder {
+    margin-right: 30px;
+}
+
+#heading {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vw; 
+    padding-right: 10vw; 
+}
+
+#heading h1 {
+    color: #fff;
+    font-size: 3vw;
+    text-align: center;
+}
+
+#contactForm {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 10vw; 
+    padding-right: 10vw; 
+    margin-top: 20px;
+    border: 10px solid;
+    border-color: #fff;
+    border-radius: 0px 100px 0px 100px;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding: 10px;
+}
+
+table label {
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+table input[type="text"], table input[type="email"], table input[type="tel"], table textarea, table select {
+    width: 100%;
+    padding: 8px;
+    border: 3px solid #000;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 1vw;
+}
+
+table input[type="checkbox"] {
+    margin-left: 20px;
+    transform: scale(4);
+    border: 3px solid #000;
+}
+
+table input[type="submit"], table input[type="reset"] {
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1.5vw;
+    transition: background-color 0.2s;
+}
+
+table input[type="submit"]:hover, table input[type="reset"]:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    margin-top: 20vh;
+}
+
+footer p {
+    color: #fff; 
+    text-align: center; 
+    margin-bottom: 2vw;
+}
+
+footer a img {
+    padding: 1vw;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.up {
+    margin-bottom: 5vh ;
+}
+
+.icons {
+    display: -webkit-box; /* For iOS and Android */
+    display: -webkit-flex; /* For Safari */
+    display: flex;
+    -webkit-box-pack: center; /* For iOS and Android */
+    -webkit-justify-content: center; /* For Safari */
+    justify-content: center;
+    -webkit-box-align: center; /* For iOS and Android */
+    -webkit-align-items: center; /* For Safari */
+    align-items: center;
+    -webkit-flex-wrap: wrap; /* For Safari */
+    flex-wrap: wrap;
+}
+
+#underline {
+    padding: 5px; 
+    background-color: #fff; 
+    width: 100%; 
+    border-radius: 12px;
+}
+
+#underline-left {
+    padding: 5px; 
+    background-color: #fff; 
+    width: 50%; 
+    border-radius: 12px;
+    margin-right: auto;
+}
+
+.upcoming {
+    margin-top: 15vh;
+    padding-left: 20vw; 
+    padding-right: 20vw; 
+    margin-bottom: 15vh;
+}
+
+.center {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upcoming h1 {
+    color: #fff;
+    font-size: 2vw;
+}
+
+.upcoming ol li {
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.past {
+    margin-top: 15vh;
+    padding-left: 20vw; 
+    padding-right: 20vw; 
+    margin-bottom: 15vh;
+}
+
+.past h1 {
+    color: #fff;
+    font-size: 2vw;
+}
+
+.past ul li {
+    color: #fff;
+    font-size: 1.5vw;
+}
+
+.special {
+    margin-top: 15vh;
+    padding-left: 20vw; 
+    padding-right: 20vw; 
+    margin-bottom: 15vh;
+}
+
+.special h1 {
+    color: #fff;
+    font-size: 2vw;
+}
+
+.special dl dd, dt {
+    color: #fff;
+    font-size: 1.5vw;
+}
